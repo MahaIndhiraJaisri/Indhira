@@ -1,16 +1,16 @@
 #include<stdio.h>
 void main()
 {
-int n ,i,c=0;
+int n ,i,count=0;
 scanf("%d",&n);
 for(i=1;i<=n;i++)
 {
 if((n%i)==0)
 {
-c++;
+count++;
 }
 }
-if(c==0)
+if(count==0)
 {
 printf("no,not a composite");
 }
